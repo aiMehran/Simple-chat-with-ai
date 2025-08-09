@@ -1,0 +1,22 @@
+{
+  "name": "cyrus/ultimate",
+  "description": "Cyrus Ultimate WordPress plugin",
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=7.4",
+    "firebase/php-jwt": "^6.10",
+    "symfony/polyfill-php80": "^1.29"
+  },
+  "autoload": {
+    "psr-4": {
+      "CyrusUltimate\\": "includes/"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.4"
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
